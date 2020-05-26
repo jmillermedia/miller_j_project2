@@ -3,3 +3,162 @@
 .hidden {
 	display: none;
 }
+
+@font-face {
+    font-family: 'eczarbold';
+    src: url('../fonts/eczar-bold-webfont.woff2') format('woff2'),
+         url('../fonts/eczar-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('../fonts/merriweather-regular-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0px auto;
+}
+
+#headerImage {
+	width: 960px;
+	height: 400px;
+	background-image: url(../images/image1-beerMug.jpg);
+}
+
+#siteTitle {
+	font-family: 'eczarbold';
+	font-size: 72px;
+	padding-left: 700px;
+	padding-top: 300px;
+}
+
+.colorBG {
+	background-color: #F1D8B2;
+}
+
+.articleTitle {
+	font-family: 'eczarbold';
+	font-size: 26px;
+}
+
+.articleParagraph {
+	font-family: 'merriweatherregular';
+	font-size: 13px;
+}
+
+#sectionOne {
+	display: flex;
+	flex-direction: row;
+	margin-left: 64px;
+	margin-right: 64px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+#sectionOne img {
+	margin-left: 64px;
+}
+
+#sectionTwo {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: right;
+}
+
+#sectionTwo img {
+	margin-top: 32px;
+	margin-bottom: 16px;
+	margin-right: 32px;
+	margin-left: 70px;
+	width: 409px;
+	height: 248px;
+}
+
+#sectionTwo h2 {
+	margin-right: 70px;
+	margin-top: 70px;
+}
+
+#sectionTwo p {
+	direction: rtl;
+	text-align: justify;
+	margin-right: 70px;
+	width: 379px;
+}
+
+#sectionTwoPTwo {
+	font-family: 'merriweatherregular';
+	font-size: 13px;
+	text-align: justify;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-bottom: 16px;
+}
+
+#sectionThree {
+	text-align: center;
+}
+
+#sectionThree h2 {
+	padding-top: 32px;
+}
+
+#sectionThree p {
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 16px;
+}
+
+#sectionThreeSplit {
+	display: flex;
+	flex-direction: row;
+	margin-top: 16px;
+}
+
+#threeSplitOne {
+	text-align: left;
+	border-right: 2px grey solid;
+
+}
+
+#threeSpiltTwo {
+	text-align: right;
+}
+
+#sectionFour {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#sectionFour img {
+	width: 360px;
+	order: -1;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+
+#sectionFour p {
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
+	padding-bottom: 16px;
+}
+
+#conclusion {
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 32px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+#conclusion p {
+	padding-top: 16px;
+}
